@@ -1,0 +1,16 @@
+inherit cmake
+
+NAME="xfce4-whiskermenu-plugin"
+VERSION=1.0.1
+RELEASE=1
+CATEGORY="Xfce"
+SUMMARY="Alternative launcher for Xfce"
+DESCRIPTION="Whisker Menu is an alternate application launcher for Xfce. When
+you open it you are shown a list of applications you have marked as favorites.
+You can browse through all of your installed applications by clicking on the
+category buttons on the side. Top level categories make browsing fast, and
+simple to switch between. Additionally, Whisker Menu keeps a list of the last
+ten applications that you have launched from it."
+HOMEPAGE="http://gottcode.org/xfce4-whiskermenu-plugin/"
+SRC_URI="http://gottcode.org/xfce4-whiskermenu-plugin/${NAME}-${VERSION}-src.tar.bz2"
+PATCH_URI="1.0.1-cmake-module.patch"

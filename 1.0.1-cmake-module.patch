@@ -1,0 +1,11 @@
+--- origsrc/xfce4-whiskermenu-plugin-1.0.1/src/CMakeLists.txt	2013-06-27 11:50:07.000000000 -0500
++++ src/xfce4-whiskermenu-plugin-1.0.1/src/CMakeLists.txt	2013-06-28 11:47:27.040368400 -0500
+@@ -56,7 +56,7 @@ if(${DISABLE_DEPRECATED})
+         -DGTK_DISABLE_DEPRECATED=1)
+ endif()
+ 
+-add_library(whiskermenu SHARED
++add_library(whiskermenu MODULE
+     applications_page.cpp
+     configuration_dialog.cpp
+     favorites_page.cpp
