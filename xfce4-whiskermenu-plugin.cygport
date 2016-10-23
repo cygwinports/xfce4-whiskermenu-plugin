@@ -1,7 +1,7 @@
 inherit cmake
 
 NAME="xfce4-whiskermenu-plugin"
-VERSION=1.5.1
+VERSION=1.6.1
 RELEASE=1
 CATEGORY="Xfce"
 SUMMARY="Alternative launcher for Xfce"
